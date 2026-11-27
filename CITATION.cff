@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Wobble board mechanics, from base shape to stability: code"
+type: software
+version: "1.0.0"
+date-released: "2026-11-27"
+license: MIT
+authors:
+  - family-names: Deligiannis
+    given-names: Theodoros
+    affiliation: "Department of Biomechanics, University of Nebraska at Omaha"
+  - family-names: Schlattmann
+    given-names: Brian
+    affiliation: "Department of Biomechanics, University of Nebraska at Omaha"
+  - family-names: Fabianiak
+    given-names: Jessica
+    affiliation: "Department of Biomechanics, University of Nebraska at Omaha"
+  - family-names: Mangalam
+    given-names: Madhur
+    affiliation: "Department of Biomechanics, University of Nebraska at Omaha"
+keywords:
+  - wobble board
+  - balance training
+  - rigid-body dynamics
+  - non-holonomic rolling
+  - stability
