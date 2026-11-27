@@ -54,8 +54,9 @@ In the code, `rho` is the vector from the centroid to the contact point, as in t
 | `phase.py` | Yaw equals the solid angle swept by the board axis | Eq. (yaw_phase) |
 | `spin_check.py` | Yaw with and without spin about the board axis | Sec. 2.5 |
 | `torque_spin.py` | Axial spin of a spherical board driven by a couple with and without a vertical component | zero (below 1e-11 rad/s) for a couple along the tilt axis; 0.1 to 0.4 rad/s at 0.1 N m otherwise; energy change equals work to 1e-11 J |
+| `routh_delta.py` | Routh's third integral for the spherical board: zero axial spin is preserved, a non-zero spin varies with tilt | integral constant to 1e-10; spin 1.000 to 1.003 rad/s; accumulated spin 2295.5 deg |
 
-The longer simulations (`caseB.py`, `caseC2.py`, `phase.py`, `spin_check.py`, `torque_spin.py`) take a few minutes each.
+The longer simulations (`caseB.py`, `caseC2.py`, `phase.py`, `spin_check.py`, `torque_spin.py`, `routh_delta.py`) take a few minutes each.
 
 ## Model summary
 

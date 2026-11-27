@@ -1,7 +1,7 @@
 {
   "title": "Wobble board mechanics, from base shape to stability: code",
   "upload_type": "software",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "description": "Simulation, numerical, and plotting scripts for the paper 'Wobble board mechanics, from base shape to stability'. The scripts reproduce the figures, Table 1, the worked examples, and the verification checks of the three-dimensional rolling model.",
   "creators": [
